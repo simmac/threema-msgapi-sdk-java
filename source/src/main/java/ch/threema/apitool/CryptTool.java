@@ -243,7 +243,7 @@ public class CryptTool {
 				System.arraycopy(data, 1, blobId, 0, ThreemaMessage.BLOB_ID_LEN);
 				int size = EndianUtils.readSwappedInteger(data, 1 + ThreemaMessage.BLOB_ID_LEN);
 				byte[] fileNonce = new byte[NaCl.NONCEBYTES];
-				System.arraycopy(data, 1 + 4 + ThreemaMessage.BLOB_ID_LEN, nonce, 0, nonce.length);
+				System.arraycopy(data, 1 + 4 + ThreemaMessage.BLOB_ID_LEN, fileNonce, 0, nonce.length);
 
 				return new ImageMessage(blobId, size, fileNonce);
 

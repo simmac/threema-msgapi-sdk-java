@@ -35,7 +35,7 @@ public class PublicKeyField extends KeyField {
 		try {
 			return this.readKey(this.value, Key.KeyType.PUBLIC);
 		} catch (Exception e) {
-			throw new InvalidKeyException("invalid private key");
+			throw new InvalidKeyException("invalid public key");
 		}
 	}
 }

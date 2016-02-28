@@ -170,6 +170,10 @@ public class APIConnector {
 				Map<String, String> getParams = makeRequestParams();
 				String pubkeyHex = doGet(new URL(this.apiUrl + "pubkeys/" + id), getParams);
 				key = DataUtils.hexStringToByteArray(pubkeyHex);
+
+				if(key != null) {
+					this.publicKeyStore.save(id, key);
+				}
 			} catch (FileNotFoundException e) {
 				return null;
 			}

@@ -267,7 +267,7 @@ public class E2EHelper {
 				throw new MessageParseException();
 			}
 
-			byte[] decryptedFileContent = CryptTool.decrypt(fileData, privateKey, publicKey, nonce);
+			byte[] decryptedFileContent = CryptTool.decrypt(fileData, privateKey, publicKey, imageMessage.getNonce());
 			File imageFile = new File(outputFolder.toString() + "/" + messageId + ".jpg");
 			FileOutputStream fos = new FileOutputStream(imageFile);
 			fos.write(decryptedFileContent);

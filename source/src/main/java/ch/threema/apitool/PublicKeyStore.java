@@ -47,7 +47,7 @@ public abstract class PublicKeyStore {
 
 			if (pk == null) {
 				pk = this.fetchPublicKey(threemaId);
-				this.setPublicKey(threemaId, pk);
+				this.cache.put(threemaId, pk);
 			}
 			return pk;
 		}
