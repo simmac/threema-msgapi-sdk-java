@@ -1,4 +1,4 @@
-# [Threema Gateway](http://gateway.threema.ch/) PHP Java
+# [Threema Gateway](https://gateway.threema.ch/) Java SDK
 
 Version: [1.1.3](https://github.com/simmac/threema-msgapi-sdk-java/releases/tag/v1.1.3)
 
@@ -8,7 +8,7 @@ An automatically created documentation of this SDK can be found [here](http://si
 This is a fork of the [original repo](https://github.com/threema-ch/threema-msgapi-sdk-java) after it was announced that it is no longer maintained by Threema.
 As this is the community version of the Threema Gateway Java SDK it may contain additional changes compared to the official one downloadable from the Threema website. If you are looking for an exact mirror of the downloadable Threema version you can switch to the branch [`official`](https://github.com/simmac/threema-msgapi-sdk-java/tree/official).  
 
-The contributors of this repositoriy are not affiliated with Threema or the Threema GmbH.
+The contributors of this repository are not affiliated with Threema or the Threema GmbH.
 
 ## Installation
 NOTE: This instructions are copied from [https://gateway.threema.ch/en/developer/howto/create-keys/java](https://gateway.threema.ch/en/developer/howto/create-keys/java).
@@ -101,9 +101,8 @@ Decrypt a box (box from the stdin) message and download (if the message is a ima
 ## Contributing
 Nice to see you want to contribute. We may periodically send patches to Threema to make it possible for them to implement them in the official SDK version.  
 
-## Other platforms (PHP and Python):
-All repositories are no longer maintained by the Threema GmbH. However, the community has forked the repositories for every platform where they are maintained unofficially.
+## Other platforms (PHP and Python)
+All repositories on GitHub are no longer maintained by the Threema GmbH. However, the community has forked the repositories of all platforms and they are now maintained unofficially.
 
-You can find the PHP repository [here](https://github.com/rugk/threema-msgapi-sdk-php)
-
-and the Python repository [here](https://github.com/lgrahl/threema-msgapi-sdk-python)
+You can find the PHP repository at [rugk/threema-msgapi-sdk-php](https://github.com/rugk/threema-msgapi-sdk-php)  
+and the Python repository [lgrahl/threema-msgapi-sdk-python](https://github.com/lgrahl/threema-msgapi-sdk-python).
