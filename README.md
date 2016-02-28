@@ -105,4 +105,4 @@ Nice to see you want to contribute. We may periodically send patches to Threema 
 All repositories on GitHub are no longer maintained by the Threema GmbH. However, the community has forked the repositories of all platforms and they are now maintained unofficially.
 
 You can find the PHP repository at [rugk/threema-msgapi-sdk-php](https://github.com/rugk/threema-msgapi-sdk-php)  
-and the Python repository [lgrahl/threema-msgapi-sdk-python](https://github.com/lgrahl/threema-msgapi-sdk-python).
+and the Python repository at [lgrahl/threema-msgapi-sdk-python](https://github.com/lgrahl/threema-msgapi-sdk-python).
