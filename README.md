@@ -6,7 +6,7 @@ An automatically created documentation of this SDK can be found [here](http://si
 
 ## Notes about this version
 This is a fork of the [original repo](https://github.com/threema-ch/threema-msgapi-sdk-java) after it was announced that it is no longer maintained by Threema.
-As this is the community version of the Threema Gateway PHP SDK it may contain additional changes compared to the official one downloadable from the Threema website. If you are looking for an exact mirror of the downloadable Threema version you can switch to the branch [`official`](https://github.com/simmac/threema-msgapi-sdk-java/tree/official).  
+As this is the community version of the Threema Gateway Java SDK it may contain additional changes compared to the official one downloadable from the Threema website. If you are looking for an exact mirror of the downloadable Threema version you can switch to the branch [`official`](https://github.com/simmac/threema-msgapi-sdk-java/tree/official).  
 
 The contributors of this repositoriy are not affiliated with Threema or the Threema GmbH.
 
