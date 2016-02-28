@@ -1,0 +1,9 @@
+ch.threema.apitool
+ch.threema.apitool.console.commands
+ch.threema.apitool.console.commands.fields
+ch.threema.apitool.exceptions
+ch.threema.apitool.helpers
+ch.threema.apitool.messages
+ch.threema.apitool.results
+com.neilalexander.jnacl
+com.neilalexander.jnacl.crypto
