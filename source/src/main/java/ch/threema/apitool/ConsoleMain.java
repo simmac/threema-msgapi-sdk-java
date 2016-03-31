@@ -110,7 +110,7 @@ public class ConsoleMain {
 
 		public void run(String[] givenArguments) throws Exception {
 			if(givenArguments.length < this.arguments.length) {
-				throw new Exception("invalid arguments");
+				throw new IllegalArgumentException("invalid arguments");
 			}
 
 			this.command.run((String[]) ArrayUtils.subarray(givenArguments, this.arguments.length, givenArguments.length));
