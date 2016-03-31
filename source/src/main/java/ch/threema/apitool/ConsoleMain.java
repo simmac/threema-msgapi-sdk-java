@@ -127,7 +127,9 @@ public class ConsoleMain {
 				.add(new HashEmailCommand(), "-h", "-e")
 				.add(new HashPhoneCommand(), "-h", "-p")
 				.add(new GenerateKeyPairCommand(), "-g")
-				.add(new DerivePublicKeyCommand(), "-p");
+				.add(new DerivePublicKeyCommand(), "-p")
+				.add(new VersionCommand(), "-v");
+
 
 		commands.create("Network operations")
 				.add(new SendSimpleMessageCommand(), "-s")

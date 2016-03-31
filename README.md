@@ -63,3 +63,17 @@ Fetch the capability of a Threema ID
 ####Decrypt and download
 	java -jar threema-msgapi-tool.jar -D <id> <from> <secret> <privateKey> <messageId> <nonce> [outputFolder]
 Decrypt a box (box from the stdin) message and download (if the message is a image or file message) the file(s) to the defined directory
+
+## Feature Levels
+
+| Level | Text | Capabilities | Image | File | Credits |
+|-------|------|--------------|-------|------|---------|
+| 1     | X    |              |       |      |         |
+| 2     | X    | X            | X     | X    |         |
+| 3     | X    | X            | X     | X    | X       |
+
+You can see the implemented feature level by invoking the following command:
+
+```
+$ java -jar threema-msgapi-tool.jar -v
+```

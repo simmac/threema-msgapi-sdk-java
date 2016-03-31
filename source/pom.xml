@@ -12,6 +12,7 @@
         <source.encoding>UTF-8</source.encoding>
         <project.build.sourceEncoding>${source.encoding}</project.build.sourceEncoding>
         <project.reporting.outputEncoding>${source.encoding}</project.reporting.outputEncoding>
+        <property.featureLevel>3</property.featureLevel>
     </properties>
 
     <organization>
@@ -55,6 +56,13 @@
     </dependencies>
 
     <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
