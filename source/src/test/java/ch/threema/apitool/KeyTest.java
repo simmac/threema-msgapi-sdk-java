@@ -58,7 +58,7 @@ public class KeyTest {
 
 	@Test
 	public void testEncodePrivate() throws Exception {
-		byte[] keyAsByte = DataUtils.hexStringToByteArray(Common.myPrivateKeyExtract);
+		byte[] keyAsByte = DataUtils.hexStringToByteArray(Common.MY_PRIVATE_KEY_EXTRACT);
 
 		Key key = new Key(Key.KeyType.PRIVATE, keyAsByte);
 		Assert.assertNotNull("key instance", key);
@@ -66,6 +66,6 @@ public class KeyTest {
 		Assert.assertEquals(Key.KeyType.PRIVATE, key.type);
 		Assert.assertEquals(key.key, keyAsByte);
 
-		Assert.assertEquals(key.encode(), Common.myPrivateKey);
+		Assert.assertEquals(key.encode(), Common.MY_PRIVATE_KEY);
 	}
 }
