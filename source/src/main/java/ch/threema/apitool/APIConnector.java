@@ -249,6 +249,7 @@ public class APIConnector {
 		request.write(fileEncryptionResult.getResult());
 		request.writeBytes(crlf);
 		request.writeBytes(twoHyphens + boundary + twoHyphens + crlf);
+		request.close();
 
 		String response = null;
 		int responseCode = connection.getResponseCode();
