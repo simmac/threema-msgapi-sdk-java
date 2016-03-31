@@ -84,7 +84,7 @@ public class DeliveryReceipt extends ThreemaMessage {
 	 * </ul>
 	 */
 	public enum Type {
-		RECEIVED(1), READ(2), USER_ACK(3);
+		RECEIVED(1), READ(2), USER_ACK(3), USER_DEC(4);
 
 		private final int code;
 
