@@ -35,13 +35,13 @@ import java.io.UnsupportedEncodingException;
  * A file message that can be sent/received with end-to-end encryption via Threema.
  */
 public class FileMessage extends ThreemaMessage {
-	private final static String KEY_BLOB_ID = "b";
-	private final static String KEY_THUMBNAIL_BLOB_ID = "t";
-	private final static String KEY_ENCRYPTION_KEY = "k";
-	private final static String KEY_MIME_TYPE = "m";
-	private final static String KEY_FILE_NAME = "n";
-	private final static String KEY_FILE_SIZE = "s";
-	private final static String KEY_TYPE = "i";
+	private static final String KEY_BLOB_ID = "b";
+	private static final String KEY_THUMBNAIL_BLOB_ID = "t";
+	private static final String KEY_ENCRYPTION_KEY = "k";
+	private static final String KEY_MIME_TYPE = "m";
+	private static final String KEY_FILE_NAME = "n";
+	private static final String KEY_FILE_SIZE = "s";
+	private static final String KEY_TYPE = "i";
 
 	public static final int TYPE_CODE = 0x17;
 

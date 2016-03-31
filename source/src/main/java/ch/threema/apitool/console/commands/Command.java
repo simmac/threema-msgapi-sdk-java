@@ -32,7 +32,7 @@ import java.io.*;
 import java.util.LinkedList;
 import java.util.List;
 
-abstract public class Command {
+public abstract class Command {
 	private final List<Field> fields = new LinkedList<>();
 	private final String subject;
 	private final String description;
