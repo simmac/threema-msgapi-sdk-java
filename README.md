@@ -1,4 +1,5 @@
 # [Threema Gateway](https://gateway.threema.ch/) Java SDK
+[![Build Status](https://travis-ci.org/simmac/threema-msgapi-sdk-java.svg?branch=master)](https://travis-ci.org/simmac/threema-msgapi-sdk-java)
 
 Version: [1.1.3-CE](https://github.com/simmac/threema-msgapi-sdk-java/releases/tag/v1.1.3-CE)
 
@@ -17,7 +18,7 @@ NOTE: This instructions are copied from [https://gateway.threema.ch/en/developer
 If you don't have a Java runtime installed yet, go to [java.com](https://java.com) to download one for your platform.
 
 ### Download and unzip the Java API tool:
-You can either download the [precompiled .jar file](https://github.com/simmac/threema-msgapi-sdk-java/releases/download/v1.1.3/threema-msgapi-tool.jar) or clone the repository and build the tool on your own
+You can either download the [precompiled .jar file](https://github.com/simmac/threema-msgapi-sdk-java/releases/download/v1.1.3-CE/threema-msgapi-tool.jar) or clone the repository and build the tool on your own
 
 ### Generate a keypair by running the tool
 Open a shell (on Windows open the command line) and go to the directory where you have extracted the ZIP.
