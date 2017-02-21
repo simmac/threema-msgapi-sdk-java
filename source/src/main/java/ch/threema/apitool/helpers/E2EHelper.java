@@ -57,13 +57,11 @@ public class E2EHelper {
 
 	public class ReceiveMessageResult {
 		private final String messageId;
-		private final ThreemaMessage message;
 		protected List<File> files = new ArrayList<>();
 		protected List<String> errors = new ArrayList<>();
 
-		public ReceiveMessageResult(String messageId, ThreemaMessage message) {
+		public ReceiveMessageResult(String messageId) {
 			this.messageId = messageId;
-			this.message = message;
 		}
 
 		public List<File> getFiles() {
@@ -256,7 +254,7 @@ public class E2EHelper {
 		}
 
 
-		ReceiveMessageResult result = new ReceiveMessageResult(messageId, message);
+		ReceiveMessageResult result = new ReceiveMessageResult(messageId);
 
 		if(message instanceof ImageMessage) {
 			//download image
